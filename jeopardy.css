@@ -1,0 +1,223 @@
+
+body {
+  background: darkslateblue;
+}
+.boardTable{
+  width : 80%
+}
+.boardTabletable, .boardTh, .boardTd {
+  border:2px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 40px;
+}
+.tableNav{
+  width: 100%;
+  height: 50px;
+}
+.navTh{
+  width: 40px;
+}
+.navTh,.tableNav{
+  text-align: center;
+  background-color: slateblue;
+  color: white
+}
+.leaderscoresTable,.leaderTr{
+  width : 80px;
+}
+.theader{
+  width: 300px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px; 
+    color:yellow;
+}
+a{
+  color: yellow;
+}
+a:link {
+  color: yellow;
+  text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+a:visited{
+  color: gray;
+}
+
+.questionChosen{
+  border-radius: 5px;
+  background-color: slateblue;
+  width: 50%;
+  height: 60%;
+  margin: auto;
+}
+.Choices{
+  color: white;
+  font-size: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Answers{
+  width: 5%;
+  height: 80%;
+  background-color: lavender;
+}
+
+.AnswerSize{
+  font-size: 100px;
+}
+.qSubmitButton{
+  width: 100%;
+  background-color: limegreen;
+  border-radius: 30px;
+  color: white;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+  margin-top: 180px;
+  margin-bottom:100px ;
+  cursor: pointer;
+}
+.qSubmitButton:active{
+  background-color: green;
+  transform: translateY(14px);
+}
+.qSubmitButton:hover{
+  font-size: 22px;
+}
+.playButton {
+  background-color: slateblue;
+  color: white;
+  width: 80px;
+  height: 50px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+
+/*styles paragraphs*/
+p{
+  text-align: center;
+  color: yellow;
+  font-family: Trebuchet MS ;
+  font-size: 200%;
+}
+
+#leaderBoard{
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;                        /* styles how round the fieldset is*/
+  backdrop-filter: blur(10px);                /* blurs fieldset to the background/body*/
+  border: 2px solid black;                    /* border of fieldset*/
+  box-shadow: 0 0 10px lavender;              /* shadow around the fieldset*/
+  padding: 30px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px
+}
+table{
+  width: 100%;
+}
+table,td{
+  font-family: Trebuchet MS ;
+  margin: auto;
+  text-align: center;
+}
+td{
+  border: solid black 2px;
+  width: 20%;
+  height: 20%;
+}
+
+h3{
+  
+  color:red;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 110px;
+}
+
+ h2{
+   color:#f1f1f1;
+   font-size: 30px;
+   text-align: center;
+   margin-top: 100px;
+ }
+
+/*styles the 'jeopardy' in the main page*/
+.jeo{
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 400%;
+  text-align: center;
+  font-stretch: condensed;
+  color: white;
+}
+
+input[type="radio"] {
+  appearance: none;
+  background-color: darkslateblue;
+  font: inherit;
+  width: 15px;
+  height: 15px;
+  border: 3px solid white;
+  margin-left: 1px;
+}
+
+input[type="radio"]:focus {
+  outline: max(3px, 0.15em) solid limegreen;
+  outline-offset: max(2px, 0.15em);
+  background-color: green;
+}
+input[type="radio"]:hover {
+  outline: max(3px, 0.15em) solid yellow;
+  outline-offset: max(2px, 0.15em);
+  background-color: yellow;
+}
+.navigation{
+  margin-top: 0;
+  font-family: Trebuchet MS ;
+  display: block;
+  background-color: aliceblue;
+  height: 50px;
+}
+.navLink:hover{
+  color: white;
+  font-size: 16px;
+}
+.navLink:visited{
+  color: white;
+}
+.navLink{
+  color: white;
+}
+
+.link_Logout{
+  color: white;
+  background-color: mediumpurple;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*styles link hover*/
+.link_Logout:hover{
+  font-size: 17px;
+}
+.link_Logout:visited{
+  color: white;
+}

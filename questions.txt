@@ -1,0 +1,35 @@
+//layout
+//question number, question, ans1,ans2,ans3,ans4,The positon of the currect Answer. 
+1,This fruit can be red & yellow and green,What is a bananna?,What is an apple?,What is a peach?,What is a mango?,3,$200
+2,GA is known as the,What is the orange state?,What is the peach state?,What is the strawberry state?,What is the apple state?,3,$400
+3,This fruit is yellow,What is a bannana?,Whis a watermelon?,What is a strawberry?,What is an orange?,2,$600
+4,This fruit grows on the ground,What is an orange?,What is a watermelon?,What is an apple?,What is a peach?,3,$800
+5,This fruit fruit is about the size of a quarter,What is an apple?,What is a grape?,What is a tangerine?,What is a pineapple?,3,$1000
+6,150 + 150,What is 350?,What is 275?,What is 300?,What is 350?,4,$200
+7,10 * 15,What is 100?,What is 200?,What is 150?,What is 300?,4,$400
+8,1000 / 20,What is 35?,What is 75?,What is 30?,What is 50?,5,$600
+9,(1+2) * (3 * 2),What is 9?,What is 18?,What is 12?,What is 15?,3,$800
+10,100 / (20 / 2) + 10,What is 20?,What is 10,What is 15,What is 25,2,$1000
+11,Disney Land is in this state,What is California,What is NY,What is Florida,What is Texas,4,$200
+12,Hollywood is in this state,Nevada,Colorado,California,Texas,4,$400
+13,Atlanta is the capital of this state,Georgia,Florida,Alabama,Mississippi,2,$600
+14,This state is called the "Lone Star",Texas,Colorado,New Mexico,California,2,$800
+15,This state has flamingos,California,South Carolina,Texas,Florida,2,$1000
+16,The sky is this color,What is green?,What is red?,What is blue?,What is purple?,4,$200
+17,The most popular eye color,What is blue?,What is brown?,What is green?,What is black?,3,$400
+18,This is one of the GSU colors,What is red?,What is orange?,What is green?,What is blue?,5,$600
+19,The color of USA flag,What is Red&Blue&Black?,What is Green&White&Blue?,What is white&blue&yellow?,What is red&white&blue?,5,$800
+20,Colors of the Mexican flag,What is Red & Blue & Black?,What is Green & White & Red?,What is white & blue & yellow?,What is red & white & blue?,3,$1000
+21,New Years is on this day,What is Jan.1?,What is Jan.2?,What is Dec.31?,What is Jan.3?,2,$200
+22,Christmas is celebrated on this day,What is Dec.31?,What is Dec.28?,What is Dec.25?,What is Dec.20?,4,$400
+23,USA independence day,What is June 4?,What is July 4?,What is July 3?,What is July 5?,3,$600
+24,Halloween is celebrated on,What is Oct.31?,What is Sept.31?,What is Oct.30?,What is Nov.1?,2,$800
+25,The Day of the Dead is on,What is Nov.15?,What is Oct.31?,What is Nov.1?,What is Oct.30?,4,$1000
+26,The country of love,France,Italy,Spain,Germany,2,$200
+27,Country with largest population,India,China,USA,Mexico,3,$400
+28,Country with most billionaires,Russia,China,France,USA,5,$600
+29,Country with largest territory?,Brazil,China,India,Russia,5,$800
+30,The state of Michoacan is located in this country?,Mexico,Ecuador,Guatemala,El Salvador,2,$1000
+
+
+

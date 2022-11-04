@@ -1,0 +1,12 @@
+
+susana,123,susana,0
+jessicaE,123,Jessica,0
+vanessa,123,vanessa,0
+,,,0
+coffee,123,susana,0
+beans,123,susana,0
+
+Blue,Blue123!,Blue,0
+blue,Blue123!,blue,0
+Demari,Demari123!,Demari,0
+Coding,Coding123!,Code,0

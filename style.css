@@ -1,0 +1,160 @@
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px; 
+}
+
+body {
+    background: lightsteelblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset strong,
+ul strong,
+fieldset label.left,
+fieldset .column {
+	float: left;
+	width: 11em;
+}
+
+fieldset{
+    height: 450px;
+    width: 400px;
+    background-color: white;                    /* color of the box where the text boxes etc. are*/
+    position: absolute;
+    transform: translate(-50%,-50%);            /* translates to the middle of the page*/
+    top: 50%;                                   /* translates to the middle of the page*/
+    left: 50%;                                  /* translates to the middle of the page*/
+    border-radius: 10px;                        /* styles how round the fieldset is*/
+    backdrop-filter: blur(10px);                /* blurs fieldset to the background/body*/
+    border: 2px solid black;                    /* border of fieldset*/
+    box-shadow: 0 0 40px lavender;              /* shadow around the fieldset*/
+    padding: 30px 30px;                         /* 1st 30 is for top/bottm. 2nd 30 is left/right*/
+}
+
+
+/* style for username and password text boxes */
+input[type="password"], input[type="text"]{
+    background: white;              /* background color = white*/
+    outline: none;                  /* this will eliminate the black outline around the text boxes*/
+    width: 210px;                   /* width of the text box. horizontal length*/
+    height: 40px;                   /* height of the text box*/
+    border-radius: 10px;            /* affects how round the text box is*/
+    padding: 0 15px;                /* 0 affects top & bottom. 15 affects left & right*/
+    margin: 15px 70px;              /* 20 affects top & bottom. 0 affects left & right*/
+    border: solid 3px #002cff;      /* border of text boxes*/
+    transition: 0.5s;                 /* time it takes for all the input boxes to "fall" into their positions*/
+}
+/* style for transition for username and password text boxes*/
+input[type="password"]:focus, input[type="text"]:focus{
+    width: 220px;                   /* the new width once you click on user/pass text box*/
+    border-color: chartreuse;       /* border color changes from blue to green*/
+    transition: 1s;                 /* transition time to turn the border from blue to green*/
+}
+/* style for submit button in sign in page*/
+input[type="submit"]{
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;         /* color of button*/
+    width: 170px;                   /* length of the button*/
+    height: 40px;
+    border-radius: 50px;
+    margin: 25px 110px;
+    border: solid 2px #002cff;
+    color: #fff;                /* color of text in login button*/
+    font-size: 18px;
+    transition: 1s;
+}
+/* style for hovering over submit button*/
+input[type="submit"]:hover{
+    background: limegreen;      /* color when hovering over the login button*/
+    border-color: limegreen;   /* border color changes from blue to green*/
+    transition: 1s;             /* time it takes to fade from blue to green color*/
+}
+
+
+::placeholder{
+    color: gray;                /* color of the placeholder for user/pass inputs*/
+}
+
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* style for links*/
+a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #002cff;             /* color of link*/
+    text-align: center;
+    width: 50%;
+}
+/* style for visited links*/
+a:visited{
+	font-size: 22pt;
+	box-sizing: border-box;
+    border-radius: 12px;
+}
+/* style for hovering over a link*/
+a:hover{
+	color: limegreen ;          /* if hovering over link the text turns green*/
+}
+
+/* style for paragraphs*/
+p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* style for h2 headers*/
+h2{
+     text-align: center;
+     border: none;
+     border-radius: 12px;
+     width: auto;
+     font-size: 20px;               /*size of font*/
+     font-weight: bold;
+     margin-left: 20%;
+     margin-right: 20%;
+     color:red;
+     background-color: yellow;      /*will have a yellow background*/
+ }
+
+/*style for when username is already taken and shows you warning*/
+ h3{
+    height: 100px;
+    width: 380px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px lavender;
+    padding: 100px 50px;
+    font-size: 20pt;
+    text-align: center;
+    color:black;
+
+ }
+
